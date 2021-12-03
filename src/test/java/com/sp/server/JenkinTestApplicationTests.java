@@ -17,6 +17,7 @@ class JenkinTestApplicationTests {
 		assertEquals(true, true);
 	}
 	
+	@Test
 	void testPrint() {
 		LOGGER.info("testPrint() printed..");
 		assertEquals(true, true);
