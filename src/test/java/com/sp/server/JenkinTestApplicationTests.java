@@ -16,5 +16,11 @@ class JenkinTestApplicationTests {
 		LOGGER.info("testDemo() executed");
 		assertEquals(true, true);
 	}
+	
+	void testPrint() {
+		LOGGER.info("testPrint() printed..");
+		assertEquals(true, true);
+		
+	}
 
 }
